@@ -1,0 +1,107 @@
+.*{
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+h1{
+text-align: center;
+color: #B83D3D;
+font-family: cursive;
+font-size: 35px;
+border-right: 2px solid;
+overflow: hidden;
+white-space: nowrap;
+animation: typing 5s steps(11);
+}
+.left{
+width: 35%;
+height: 100%;
+float: left;
+background: #3872A8 ;
+border-radius: 10px ;
+}
+.left img{
+max-width: 150px;
+max-height: 150px;
+margin-left:30%;
+margin-top: 5%;
+border-radius: 50%;
+}
+.left ul li{
+margin-bottom: 6%; 	
+font-family: cursive;
+color: #600B2A;
+font-size: 20px;
+word-spacing: 1px;
+}
+.right{
+width: 62%;
+height: 100%;
+float: right;
+margin-left: 3%;
+}
+.right .educaton h3{
+font-family: sans-serif;	
+color: #B83D3D;
+font-size: 25px;
+margin-left: 20px;
+}
+.right .educaton ul li{
+color: #3872A8;	
+list-style: none;
+font-size: 18px;
+}
+.right .cursussen h3{
+font-family: sans-serif;	
+color: #B83D3D;
+font-size: 25px;
+margin-left: 20px;
+}
+.right .cursussen ul li{
+color: #3872A8;	
+list-style: none;
+font-size: 18px;
+}
+.right .hobbies h3{
+font-family: sans-serif;	
+color: #B83D3D;
+font-size: 25px;
+margin-left: 20px;
+}
+.right .hobbies ul li{
+color: #3872A8;	
+list-style: none;
+font-size: 18px;
+}
+.right .languages h3{
+font-family: sans-serif;	
+color: #B83D3D;
+font-size: 25px;
+margin-left: 20px;
+}
+.right .languages ul li{
+color: #3872A8;	
+list-style: none;
+font-size: 18px;
+}
+footer{
+size: 150px;
+}
+footer img{
+width: 50px;
+height: 50px;	
+border-radius: 50%;
+}
+footer a {
+margin-left: 90%;
+float: right;
+size: 40px;
+}
+@keyframes typing{
+0%{
+width: 0ch;
+}
+100%{
+width: 11ch;
+}
+}
