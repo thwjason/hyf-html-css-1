@@ -96,6 +96,7 @@ footer a {
 margin-left: 90%;
 float: right;
 size: 40px;
+display: inline;  
 }
 @keyframes typing{
 0%{
