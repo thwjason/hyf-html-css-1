@@ -1,0 +1,187 @@
+P Probook@DESKTOP-K1GPTRN MINGW64 ~
+$ pwd
+/c/Users/HP Probook
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~
+$ cd desktop/
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop
+$ mkdir hyfweek2
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop
+$ cd hyfweek2
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ ls
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ touch blank
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ ls
+blank
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ echo "hallo" > greetings.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ echo "hallo" >> greetings.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ echo "hallo" >> greetings.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ echo "hallo" >> greetings.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ echo "hallo" >> greetings.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ cat greetings.txt
+hallo
+hallo
+hallo
+hallo
+hallo
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ cp greetings.txt 1.txt,2.txt,3.txt,4.txt,5.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ ls
+1.txt,2.txt,3.txt,4.txt,5.txt  blank  greetings.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ rm 1.txt,2.txt,3.txt,4.txt,5.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ ls
+blank  greetings.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ cp greetings.txt  1.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ ls
+1.txt  blank  greetings.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ cp greetings.txt  2.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ cp greetings.txt  3.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ cp greetings.txt  4.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ cp greetings.txt  5.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  blank  greetings.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ touch pets.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  blank  greetings.txt  pets.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ echo "cat" > pets.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ echo "dog" > pets.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ echo "hamster" > pets.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ cat pets.txt
+hamster
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ echo "cat" > pets.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ cat pets.txt
+cat
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ echo "dog" >> pets.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ cat pets.txt
+cat
+dog
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ echo "hamster" >> pets.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ cat pets.txt
+cat
+dog
+hamster
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ touch commands.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  blank  commands.txt  greetings.txt  pets.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ echo "cat" > commands.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ cat commands.txt
+cat
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ echo "ls" >>commands.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ echo "pwd" >>commands.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ echo "touch" >>commands.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ cat commands.txt
+cat
+ls
+pwd
+touch
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ sort pets.txt commands.txt | uniq
+cat
+dog
+hamster
+ls
+pwd
+touch
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ sort pets.txt commands.txt | uniq >> lovelycommands.txt
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ cat lovelycommands
+cat: lovelycommands: No such file or directory
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ cat lovelycommands.txt
+cat
+dog
+hamster
+ls
+pwd
+touch
+
+HP Probook@DESKTOP-K1GPTRN MINGW64 ~/desktop/hyfweek2
+$ ls
+1.txt  3.txt  5.txt  commands.txt   lovelycommands.txt
+2.txt  4.txt  blank  greetings.txt  pets.txt
+
